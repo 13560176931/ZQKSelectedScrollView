@@ -1,0 +1,535 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3C3391741CACB25A00770C7F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C3391731CACB25A00770C7F /* main.m */; };
+		3C3391771CACB25A00770C7F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C3391761CACB25A00770C7F /* AppDelegate.m */; };
+		3C33917A1CACB25A00770C7F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C3391791CACB25A00770C7F /* ViewController.m */; };
+		3C33917D1CACB25A00770C7F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C33917B1CACB25A00770C7F /* Main.storyboard */; };
+		3C33917F1CACB25A00770C7F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3C33917E1CACB25A00770C7F /* Assets.xcassets */; };
+		3C3391821CACB25A00770C7F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C3391801CACB25A00770C7F /* LaunchScreen.storyboard */; };
+		3C33918D1CACB25A00770C7F /* ZQKSelectedScrollButtonTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C33918C1CACB25A00770C7F /* ZQKSelectedScrollButtonTests.m */; };
+		3C3391981CACB25A00770C7F /* ZQKSelectedScrollButtonUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C3391971CACB25A00770C7F /* ZQKSelectedScrollButtonUITests.m */; };
+		3C3391A81CACB26300770C7F /* ZQKSelectScrollview.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C3391A71CACB26300770C7F /* ZQKSelectScrollview.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3C3391891CACB25A00770C7F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3C3391671CACB25900770C7F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3C33916E1CACB25900770C7F;
+			remoteInfo = ZQKSelectedScrollButton;
+		};
+		3C3391941CACB25A00770C7F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3C3391671CACB25900770C7F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3C33916E1CACB25900770C7F;
+			remoteInfo = ZQKSelectedScrollButton;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3C33916F1CACB25900770C7F /* ZQKSelectedScrollButton.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZQKSelectedScrollButton.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C3391731CACB25A00770C7F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3C3391751CACB25A00770C7F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3C3391761CACB25A00770C7F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3C3391781CACB25A00770C7F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		3C3391791CACB25A00770C7F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		3C33917C1CACB25A00770C7F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3C33917E1CACB25A00770C7F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3C3391811CACB25A00770C7F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3C3391831CACB25A00770C7F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3C3391881CACB25A00770C7F /* ZQKSelectedScrollButtonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZQKSelectedScrollButtonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C33918C1CACB25A00770C7F /* ZQKSelectedScrollButtonTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZQKSelectedScrollButtonTests.m; sourceTree = "<group>"; };
+		3C33918E1CACB25A00770C7F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3C3391931CACB25A00770C7F /* ZQKSelectedScrollButtonUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZQKSelectedScrollButtonUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C3391971CACB25A00770C7F /* ZQKSelectedScrollButtonUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZQKSelectedScrollButtonUITests.m; sourceTree = "<group>"; };
+		3C3391991CACB25A00770C7F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3C3391A61CACB26300770C7F /* ZQKSelectScrollview.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZQKSelectScrollview.h; sourceTree = "<group>"; };
+		3C3391A71CACB26300770C7F /* ZQKSelectScrollview.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZQKSelectScrollview.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3C33916C1CACB25900770C7F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C3391851CACB25A00770C7F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C3391901CACB25A00770C7F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3C3391661CACB25900770C7F = {
+			isa = PBXGroup;
+			children = (
+				3C3391711CACB25A00770C7F /* ZQKSelectedScrollButton */,
+				3C33918B1CACB25A00770C7F /* ZQKSelectedScrollButtonTests */,
+				3C3391961CACB25A00770C7F /* ZQKSelectedScrollButtonUITests */,
+				3C3391701CACB25900770C7F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3C3391701CACB25900770C7F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3C33916F1CACB25900770C7F /* ZQKSelectedScrollButton.app */,
+				3C3391881CACB25A00770C7F /* ZQKSelectedScrollButtonTests.xctest */,
+				3C3391931CACB25A00770C7F /* ZQKSelectedScrollButtonUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3C3391711CACB25A00770C7F /* ZQKSelectedScrollButton */ = {
+			isa = PBXGroup;
+			children = (
+				3C3391A51CACB26300770C7F /* ZQKSelectScrollView */,
+				3C3391751CACB25A00770C7F /* AppDelegate.h */,
+				3C3391761CACB25A00770C7F /* AppDelegate.m */,
+				3C3391781CACB25A00770C7F /* ViewController.h */,
+				3C3391791CACB25A00770C7F /* ViewController.m */,
+				3C33917B1CACB25A00770C7F /* Main.storyboard */,
+				3C33917E1CACB25A00770C7F /* Assets.xcassets */,
+				3C3391801CACB25A00770C7F /* LaunchScreen.storyboard */,
+				3C3391831CACB25A00770C7F /* Info.plist */,
+				3C3391721CACB25A00770C7F /* Supporting Files */,
+			);
+			path = ZQKSelectedScrollButton;
+			sourceTree = "<group>";
+		};
+		3C3391721CACB25A00770C7F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3C3391731CACB25A00770C7F /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3C33918B1CACB25A00770C7F /* ZQKSelectedScrollButtonTests */ = {
+			isa = PBXGroup;
+			children = (
+				3C33918C1CACB25A00770C7F /* ZQKSelectedScrollButtonTests.m */,
+				3C33918E1CACB25A00770C7F /* Info.plist */,
+			);
+			path = ZQKSelectedScrollButtonTests;
+			sourceTree = "<group>";
+		};
+		3C3391961CACB25A00770C7F /* ZQKSelectedScrollButtonUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3C3391971CACB25A00770C7F /* ZQKSelectedScrollButtonUITests.m */,
+				3C3391991CACB25A00770C7F /* Info.plist */,
+			);
+			path = ZQKSelectedScrollButtonUITests;
+			sourceTree = "<group>";
+		};
+		3C3391A51CACB26300770C7F /* ZQKSelectScrollView */ = {
+			isa = PBXGroup;
+			children = (
+				3C3391A61CACB26300770C7F /* ZQKSelectScrollview.h */,
+				3C3391A71CACB26300770C7F /* ZQKSelectScrollview.m */,
+			);
+			path = ZQKSelectScrollView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3C33916E1CACB25900770C7F /* ZQKSelectedScrollButton */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3C33919C1CACB25A00770C7F /* Build configuration list for PBXNativeTarget "ZQKSelectedScrollButton" */;
+			buildPhases = (
+				3C33916B1CACB25900770C7F /* Sources */,
+				3C33916C1CACB25900770C7F /* Frameworks */,
+				3C33916D1CACB25900770C7F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZQKSelectedScrollButton;
+			productName = ZQKSelectedScrollButton;
+			productReference = 3C33916F1CACB25900770C7F /* ZQKSelectedScrollButton.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3C3391871CACB25A00770C7F /* ZQKSelectedScrollButtonTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3C33919F1CACB25A00770C7F /* Build configuration list for PBXNativeTarget "ZQKSelectedScrollButtonTests" */;
+			buildPhases = (
+				3C3391841CACB25A00770C7F /* Sources */,
+				3C3391851CACB25A00770C7F /* Frameworks */,
+				3C3391861CACB25A00770C7F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3C33918A1CACB25A00770C7F /* PBXTargetDependency */,
+			);
+			name = ZQKSelectedScrollButtonTests;
+			productName = ZQKSelectedScrollButtonTests;
+			productReference = 3C3391881CACB25A00770C7F /* ZQKSelectedScrollButtonTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3C3391921CACB25A00770C7F /* ZQKSelectedScrollButtonUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3C3391A21CACB25A00770C7F /* Build configuration list for PBXNativeTarget "ZQKSelectedScrollButtonUITests" */;
+			buildPhases = (
+				3C33918F1CACB25A00770C7F /* Sources */,
+				3C3391901CACB25A00770C7F /* Frameworks */,
+				3C3391911CACB25A00770C7F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3C3391951CACB25A00770C7F /* PBXTargetDependency */,
+			);
+			name = ZQKSelectedScrollButtonUITests;
+			productName = ZQKSelectedScrollButtonUITests;
+			productReference = 3C3391931CACB25A00770C7F /* ZQKSelectedScrollButtonUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3C3391671CACB25900770C7F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = qk;
+				TargetAttributes = {
+					3C33916E1CACB25900770C7F = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					3C3391871CACB25A00770C7F = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 3C33916E1CACB25900770C7F;
+					};
+					3C3391921CACB25A00770C7F = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 3C33916E1CACB25900770C7F;
+					};
+				};
+			};
+			buildConfigurationList = 3C33916A1CACB25900770C7F /* Build configuration list for PBXProject "ZQKSelectedScrollButton" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3C3391661CACB25900770C7F;
+			productRefGroup = 3C3391701CACB25900770C7F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3C33916E1CACB25900770C7F /* ZQKSelectedScrollButton */,
+				3C3391871CACB25A00770C7F /* ZQKSelectedScrollButtonTests */,
+				3C3391921CACB25A00770C7F /* ZQKSelectedScrollButtonUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3C33916D1CACB25900770C7F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C3391821CACB25A00770C7F /* LaunchScreen.storyboard in Resources */,
+				3C33917F1CACB25A00770C7F /* Assets.xcassets in Resources */,
+				3C33917D1CACB25A00770C7F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C3391861CACB25A00770C7F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C3391911CACB25A00770C7F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3C33916B1CACB25900770C7F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C3391A81CACB26300770C7F /* ZQKSelectScrollview.m in Sources */,
+				3C33917A1CACB25A00770C7F /* ViewController.m in Sources */,
+				3C3391771CACB25A00770C7F /* AppDelegate.m in Sources */,
+				3C3391741CACB25A00770C7F /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C3391841CACB25A00770C7F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C33918D1CACB25A00770C7F /* ZQKSelectedScrollButtonTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C33918F1CACB25A00770C7F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C3391981CACB25A00770C7F /* ZQKSelectedScrollButtonUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3C33918A1CACB25A00770C7F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3C33916E1CACB25900770C7F /* ZQKSelectedScrollButton */;
+			targetProxy = 3C3391891CACB25A00770C7F /* PBXContainerItemProxy */;
+		};
+		3C3391951CACB25A00770C7F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3C33916E1CACB25900770C7F /* ZQKSelectedScrollButton */;
+			targetProxy = 3C3391941CACB25A00770C7F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3C33917B1CACB25A00770C7F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3C33917C1CACB25A00770C7F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3C3391801CACB25A00770C7F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3C3391811CACB25A00770C7F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3C33919A1CACB25A00770C7F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3C33919B1CACB25A00770C7F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3C33919D1CACB25A00770C7F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ZQKSelectedScrollButton/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = qk.ZQKSelectedScrollButton;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3C33919E1CACB25A00770C7F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ZQKSelectedScrollButton/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = qk.ZQKSelectedScrollButton;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		3C3391A01CACB25A00770C7F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ZQKSelectedScrollButtonTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = qk.ZQKSelectedScrollButtonTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZQKSelectedScrollButton.app/ZQKSelectedScrollButton";
+			};
+			name = Debug;
+		};
+		3C3391A11CACB25A00770C7F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ZQKSelectedScrollButtonTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = qk.ZQKSelectedScrollButtonTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZQKSelectedScrollButton.app/ZQKSelectedScrollButton";
+			};
+			name = Release;
+		};
+		3C3391A31CACB25A00770C7F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ZQKSelectedScrollButtonUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = qk.ZQKSelectedScrollButtonUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ZQKSelectedScrollButton;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		3C3391A41CACB25A00770C7F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ZQKSelectedScrollButtonUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = qk.ZQKSelectedScrollButtonUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ZQKSelectedScrollButton;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3C33916A1CACB25900770C7F /* Build configuration list for PBXProject "ZQKSelectedScrollButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C33919A1CACB25A00770C7F /* Debug */,
+				3C33919B1CACB25A00770C7F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3C33919C1CACB25A00770C7F /* Build configuration list for PBXNativeTarget "ZQKSelectedScrollButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C33919D1CACB25A00770C7F /* Debug */,
+				3C33919E1CACB25A00770C7F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3C33919F1CACB25A00770C7F /* Build configuration list for PBXNativeTarget "ZQKSelectedScrollButtonTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C3391A01CACB25A00770C7F /* Debug */,
+				3C3391A11CACB25A00770C7F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3C3391A21CACB25A00770C7F /* Build configuration list for PBXNativeTarget "ZQKSelectedScrollButtonUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C3391A31CACB25A00770C7F /* Debug */,
+				3C3391A41CACB25A00770C7F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3C3391671CACB25900770C7F /* Project object */;
+}
